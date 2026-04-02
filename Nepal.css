@@ -1,0 +1,14 @@
+p{
+    color:black;
+    font-size: medium;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Second{
+    color: blue;
+}
+*{
+    text-align: center;
+    background-color: bisque;
+}

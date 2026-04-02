@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  position: sticky;
+  top:0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: rgb(104, 141, 228);
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-buttons a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #000000;
+}
+
+.nav-buttons button {
+  padding: 10px 15px;
+  background: #2f80ed;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  background: #eef2f7;
+  border-radius: 20px;
+  margin: 20px;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+  color: #222;
+}
+
+.hero-text span {
+  color: #a47244;
+}
+
+.hero-text p {
+  color: #555;
+}
+
+.buttons {
+  margin: 20px 0;
+}
+
+.primary {
+  background: #2f80ed;
+  color: white;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 6px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.secondary {
+  background: #dfe6f1;
+  color: #333;
+  padding: 12px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.small-text {
+  font-size: 14px;
+  color: green;
+}
+
+/* Image */
+.hero-image img {
+  width: 250px;
+  border-radius: 50%;
+}
+
+/* Stats */
+.stats {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.stats span {
+  color: #2f80ed;
+  font-size: 40px;
+}
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f5f5f5;
+}
+
+/* Container */
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  justify-content: center;
+}
+
+/* Card */
+.card {
+  background: white;
+  width: 250px;
+  padding: 20px;
+  height: 200px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Image */
+.card img {
+  width: 100px;
+  height: 80px;
+  margin-bottom: 15px;
+}
+
+/* Text */
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+}
+
+/* Button */
+.card button {
+  margin-top: 15px;
+  padding: 10px;
+  width: 100%;
+  background: #37894d;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.navbar img {
+  height: 1rem;
+  width: 1rem;
+}
+.kasto img{
+height: 10rem;
+width: 10rem;
+}
+.glass{
+  display: flex;
+  gap: 20px;
+  padding: 40px;
+  justify-content: center;
+}
+.grass{
+background: white;
+  width: 250px;
+  padding: 20px;
+  height: 200px;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.grass img{
+  width: 100px;
+  height: 80px;
+  margin-bottom: 15px;
+}

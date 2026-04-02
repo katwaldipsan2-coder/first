@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive
+}
+
+body {
+    background-color: #68daac;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ad7474;
+    padding: 15px 50px;
+}
+
+.logo {
+    color: #000000; 
+    font-size: 20px;
+    font-weight: Bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+nav link button {
+    color: black;
+    text-decoration: none;
+    font-family: cursive;
+}
